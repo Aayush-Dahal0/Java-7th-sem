@@ -1,0 +1,21 @@
+package differentSwingComponent;
+
+import javax.swing.JFrame;
+import javax.swing.JOptionPane;
+
+public class JOptionpaneDemo extends JFrame {
+
+	public JOptionpaneDemo() {
+		int f = Integer.parseInt(JOptionPane.showInputDialog("Enter first message"));
+		int s = Integer.parseInt(JOptionPane.showInputDialog("Enter first message"));
+		int sum = f + s;
+		
+		JOptionPane.showMessageDialog(null, "The summation is "+sum,"The sum of two numbers",JOptionPane.INFORMATION_MESSAGE);
+		JOptionPane.showConfirmDialog(null, "The summation is "+sum,"The sum of two numbers",JOptionPane.WARNING_MESSAGE,JOptionPane.YES_NO_CANCEL_OPTION);
+		
+	}
+
+	public static void main(String[] args) {
+new JOptionpaneDemo();
+	}
+}

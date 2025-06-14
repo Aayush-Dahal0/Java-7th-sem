@@ -1,0 +1,11 @@
+package differentSwingComponent;
+
+public class JOptionpaneDemo {
+
+	public JOptionpaneDemo() {
+	}
+
+	public static void main(String[] args) {
+
+	}
+}

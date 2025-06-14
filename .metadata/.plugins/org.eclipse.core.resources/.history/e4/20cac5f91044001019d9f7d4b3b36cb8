@@ -1,0 +1,12 @@
+package differentSwingComponent;
+
+public class DesktopPaneDemo {
+
+	public DesktopPaneDemo() {
+	}
+
+	public static void main(String[] args) {
+
+	}
+
+}

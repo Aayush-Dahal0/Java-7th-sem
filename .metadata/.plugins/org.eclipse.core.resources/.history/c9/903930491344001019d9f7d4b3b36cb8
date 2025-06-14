@@ -1,0 +1,45 @@
+package differentSwingComponent;
+
+import javax.swing.JButton;
+import javax.swing.JDesktopPane;
+import javax.swing.JFrame;
+import javax.swing.JInternalFrame;
+
+public class DesktopPaneDemo extends JFrame {
+	JDesktopPane dp;
+	JInternalFrame if1, if2, if3, if4;
+	JButton btn1, btn2, btn3, btn4;
+
+	public DesktopPaneDemo() {
+		dp = new JDesktopPane();
+		btn1 = new JButton("Button One");
+		btn2 = new JButton("Button two");
+		btn3 = new JButton("Buttone three");
+		btn4 = new JButton("Button four");
+		
+		if1 = new JInternalFrame("First Internal Frame", true, true, true, true);
+		if1.setLocation(20, 20);
+		if1.setSize(200,200);
+		if1.add(btn1);
+		dp.add(if1);
+		if1.setVisible(true);
+		
+
+		if2 = new JInternalFrame("Second Internal Frame", true, true, true, true);
+		if2.setLocation(40, 40);
+		if2.setSize(200,200);
+		if2.add(btn2);
+		dp.add(if2);
+		if2.setVisible(true);
+		
+		add(dp);
+		setSize(600, 600);
+		setVisible(true);
+		setDefaultCloseOperation(EXIT_ON_CLOSE);
+	}
+
+	public static void main(String[] args) {
+new DesktopPaneDemo();
+	}
+
+}
