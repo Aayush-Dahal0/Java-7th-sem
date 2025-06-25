@@ -1,9 +1,0 @@
-package differentSwingComponent;
-
-public class JOptionpaneDemo {
-
-	public JOptionpaneDemo() {
-		// TODO Auto-generated constructor stub
-	}
-
-}

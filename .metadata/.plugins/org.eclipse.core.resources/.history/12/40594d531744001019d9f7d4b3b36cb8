@@ -1,9 +1,0 @@
-package differentSwingComponent;
-
-public class AdvancedSwingComponent {
-
-	public AdvancedSwingComponent() {
-		// TODO Auto-generated constructor stub
-	}
-
-}
